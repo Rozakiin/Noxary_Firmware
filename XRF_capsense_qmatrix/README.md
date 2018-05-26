@@ -1,3 +1,24 @@
+Using Hasu's Code as a base for XRF firmware, not in any real working order.
+
+![XRF](https://i.imgur.com/ziqGxpA.png)
+
+A fully customizable Topre TKL keyboard.
+
+* Keyboard Maintainer: [Rozakiin](https://github.com/rozakiin)
+* Hardware Supported: XRF PCB
+  * rev0.1 
+* Hardware Availability: [Noxary](https://www.instagram.com/noxaryco/)
+
+Make example for this keyboard (after setting up your build environment):
+
+    make -f Makefile.XRF clean
+    make -f Makefile.XRF
+
+See [build environment setup](https://github.com/tmk/tmk_keyboard/blob/master/tmk_core/doc/build.md) then the [make instructions]
+(https://github.com/tmk/tmk_keyboard/blob/master/tmk_core/doc/build.md#build-firmware) for more information.
+
+
+
 Capacitive Sense - DIY Realforce 106s controller
 ================================================
 This scans capacitive switch matrix using Atmel QMatrix method.
