@@ -1,0 +1,2078 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+                              obj_realforce/protocol/lufa/lufa.o (__udivmodqi4)
+c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                              c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o (exit)
+c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+                              obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o (__tablejump2__)
+c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                              obj_realforce/protocol/lufa/lufa.o (__do_copy_data)
+c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                              obj_realforce/realforce.o (__do_clear_bss)
+c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eerd_byte.o)
+                              obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o (eeprom_read_byte)
+c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eeupd_byte.o)
+                              obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o (eeprom_update_byte)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_IsInitialized   0x1               obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+USB_DeviceState     0x1               obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+USB_Device_ConfigurationNumber
+                    0x1               obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+USB_Device_CurrentlySelfPowered
+                    0x1               obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+key                 0x20              obj_realforce/realforce.o
+USB_ControlRequest  0x8               obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+avg                 0x60              obj_realforce/realforce.o
+USB_Device_RemoteWakeupEnabled
+                    0x1               obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+counts              0xc0              obj_realforce/realforce.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+ .bss           0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+ .text          0x00000000        0x0 obj_realforce/realforce.o
+ .data          0x00000000        0x0 obj_realforce/realforce.o
+ .bss           0x00000000        0x0 obj_realforce/realforce.o
+ .text.matrix_rows
+                0x00000000        0x4 obj_realforce/realforce.o
+ .text.matrix_cols
+                0x00000000        0x4 obj_realforce/realforce.o
+ .text.matrix_is_on
+                0x00000000       0x2c obj_realforce/realforce.o
+ .text          0x00000000        0x0 obj_realforce/keymap.o
+ .data          0x00000000        0x0 obj_realforce/keymap.o
+ .bss           0x00000000        0x0 obj_realforce/keymap.o
+ .text          0x00000000        0x0 obj_realforce/capsense.o
+ .data          0x00000000        0x0 obj_realforce/capsense.o
+ .bss           0x00000000        0x0 obj_realforce/capsense.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/lufa.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/lufa.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/lufa.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/descriptor.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/descriptor.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/descriptor.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text.USB_ProcessHIDReport
+                0x00000000      0x6d2 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text.USB_GetHIDReportItemInfo
+                0x00000000       0xbc obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text.USB_SetHIDReportItemInfo
+                0x00000000       0xce obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text.USB_GetHIDReportSize
+                0x00000000       0x54 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_info    0x00000000      0x738 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_abbrev  0x00000000      0x21e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_loc     0x00000000      0xb5e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_aranges
+                0x00000000       0x38 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_ranges  0x00000000       0xd0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_line    0x00000000      0x5b2 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_str     0x00000000      0x6f1 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .comment       0x00000000       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_frame   0x00000000      0x14c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Discard_Stream
+                0x00000000       0x80 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Null_Stream
+                0x00000000       0x80 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Stream_BE
+                0x00000000       0xa6 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_LE
+                0x00000000       0x9a obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_BE
+                0x00000000       0xa6 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_LE
+                0x00000000       0xa0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_BE
+                0x00000000       0xa8 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_LE
+                0x00000000       0xa0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_BE
+                0x00000000       0xaa obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_LE
+                0x00000000       0xa0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_BE
+                0x00000000       0xaa obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_Stream_BE
+                0x00000000       0xcc obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_LE
+                0x00000000       0x7c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_BE
+                0x00000000       0x7e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_PStream_BE
+                0x00000000       0xca obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_LE
+                0x00000000       0xf0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_BE
+                0x00000000      0x100 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_LE
+                0x00000000       0x90 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_BE
+                0x00000000       0x8e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .text.Endpoint_ConfigureEndpointTable
+                0x00000000       0x92 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .text.Endpoint_ClearEndpoints
+                0x00000000       0x28 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_info    0x00000000       0x56 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_line    0x00000000       0x1a obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_str     0x00000000      0x1cc obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .comment       0x00000000       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_info    0x00000000       0x56 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_line    0x00000000       0x1a obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_str     0x00000000      0x1d2 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .comment       0x00000000       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_info    0x00000000       0x56 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_line    0x00000000       0x1a obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_str     0x00000000      0x1cc obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .comment       0x00000000       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptor
+                0x00000000       0x3c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfType
+                0x00000000       0x48 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeBefore
+                0x00000000       0x58 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeAfter
+                0x00000000       0x3e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorComp
+                0x00000000       0x66 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_info    0x00000000      0x3cd obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_abbrev  0x00000000      0x183 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_loc     0x00000000      0x5bd obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_aranges
+                0x00000000       0x40 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_ranges  0x00000000       0x30 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_line    0x00000000      0x22e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_str     0x00000000      0x415 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .comment       0x00000000       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_frame   0x00000000      0x124 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .text.USB_Event_Stub
+                0x00000000        0x2 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_info    0x00000000       0x78 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_abbrev  0x00000000       0x44 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_aranges
+                0x00000000       0x20 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_ranges  0x00000000       0x10 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_line    0x00000000       0x6c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_str     0x00000000      0x1d3 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .comment       0x00000000       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_frame   0x00000000       0x24 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_info    0x00000000       0x56 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_abbrev  0x00000000       0x26 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_aranges
+                0x00000000       0x18 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_line    0x00000000       0x1a obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_str     0x00000000      0x1cd obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .comment       0x00000000       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .text          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .data          0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .bss           0x00000000        0x0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .text          0x00000000        0x0 obj_realforce/common/host.o
+ .data          0x00000000        0x0 obj_realforce/common/host.o
+ .bss           0x00000000        0x0 obj_realforce/common/host.o
+ .text.host_get_driver
+                0x00000000        0xa obj_realforce/common/host.o
+ .text.host_mouse_send
+                0x00000000       0x16 obj_realforce/common/host.o
+ .text.host_last_sysytem_report
+                0x00000000        0xa obj_realforce/common/host.o
+ .text.host_last_consumer_report
+                0x00000000        0xa obj_realforce/common/host.o
+ .text          0x00000000        0x0 obj_realforce/common/keyboard.o
+ .data          0x00000000        0x0 obj_realforce/common/keyboard.o
+ .bss           0x00000000        0x0 obj_realforce/common/keyboard.o
+ .text.matrix_setup
+                0x00000000        0x2 obj_realforce/common/keyboard.o
+ .text          0x00000000        0x0 obj_realforce/common/action.o
+ .data          0x00000000        0x0 obj_realforce/common/action.o
+ .bss           0x00000000        0x0 obj_realforce/common/action.o
+ .text.debug_action
+                0x00000000        0x2 obj_realforce/common/action.o
+ .text          0x00000000        0x0 obj_realforce/common/action_tapping.o
+ .data          0x00000000        0x0 obj_realforce/common/action_tapping.o
+ .bss           0x00000000        0x0 obj_realforce/common/action_tapping.o
+ .text          0x00000000        0x0 obj_realforce/common/action_macro.o
+ .data          0x00000000        0x0 obj_realforce/common/action_macro.o
+ .bss           0x00000000        0x0 obj_realforce/common/action_macro.o
+ .text          0x00000000        0x0 obj_realforce/common/action_layer.o
+ .data          0x00000000        0x0 obj_realforce/common/action_layer.o
+ .bss           0x00000000        0x0 obj_realforce/common/action_layer.o
+ .text          0x00000000        0x0 obj_realforce/common/action_util.o
+ .data          0x00000000        0x0 obj_realforce/common/action_util.o
+ .bss           0x00000000        0x0 obj_realforce/common/action_util.o
+ .text.get_mods
+                0x00000000        0x6 obj_realforce/common/action_util.o
+ .text.set_mods
+                0x00000000        0x6 obj_realforce/common/action_util.o
+ .text.get_weak_mods
+                0x00000000        0x6 obj_realforce/common/action_util.o
+ .text.set_weak_mods
+                0x00000000        0x6 obj_realforce/common/action_util.o
+ .text.has_anymod
+                0x00000000        0x8 obj_realforce/common/action_util.o
+ .text.get_first_key
+                0x00000000        0xc obj_realforce/common/action_util.o
+ .text          0x00000000        0x0 obj_realforce/common/keymap.o
+ .data          0x00000000        0x0 obj_realforce/common/keymap.o
+ .bss           0x00000000        0x0 obj_realforce/common/keymap.o
+ .text          0x00000000        0x0 obj_realforce/common/print.o
+ .data          0x00000000        0x0 obj_realforce/common/print.o
+ .bss           0x00000000        0x0 obj_realforce/common/print.o
+ .text          0x00000000        0x0 obj_realforce/common/debug.o
+ .data          0x00000000        0x0 obj_realforce/common/debug.o
+ .bss           0x00000000        0x0 obj_realforce/common/debug.o
+ .text          0x00000000        0x0 obj_realforce/common/util.o
+ .data          0x00000000        0x0 obj_realforce/common/util.o
+ .bss           0x00000000        0x0 obj_realforce/common/util.o
+ .text.bitpop   0x00000000       0x14 obj_realforce/common/util.o
+ .text.bitpop16
+                0x00000000       0x18 obj_realforce/common/util.o
+ .text.bitpop32
+                0x00000000       0x3a obj_realforce/common/util.o
+ .text.biton    0x00000000       0x28 obj_realforce/common/util.o
+ .text.biton16  0x00000000       0x4c obj_realforce/common/util.o
+ .text.biton32  0x00000000       0xa0 obj_realforce/common/util.o
+ .text.bitrev   0x00000000       0x2c obj_realforce/common/util.o
+ .text.bitrev16
+                0x00000000       0x34 obj_realforce/common/util.o
+ .text.bitrev32
+                0x00000000       0x56 obj_realforce/common/util.o
+ .debug_info    0x00000000      0x29b obj_realforce/common/util.o
+ .debug_abbrev  0x00000000       0xcb obj_realforce/common/util.o
+ .debug_loc     0x00000000      0x524 obj_realforce/common/util.o
+ .debug_aranges
+                0x00000000       0x60 obj_realforce/common/util.o
+ .debug_ranges  0x00000000       0x50 obj_realforce/common/util.o
+ .debug_line    0x00000000      0x29b obj_realforce/common/util.o
+ .debug_str     0x00000000      0x203 obj_realforce/common/util.o
+ .comment       0x00000000       0x31 obj_realforce/common/util.o
+ .debug_frame   0x00000000      0x11c obj_realforce/common/util.o
+ .text          0x00000000        0x0 obj_realforce/common/avr/suspend.o
+ .data          0x00000000        0x0 obj_realforce/common/avr/suspend.o
+ .bss           0x00000000        0x0 obj_realforce/common/avr/suspend.o
+ .text.suspend_idle
+                0x00000000       0x1a obj_realforce/common/avr/suspend.o
+ .text.matrix_power_up
+                0x00000000        0x2 obj_realforce/common/avr/suspend.o
+ .text.matrix_power_down
+                0x00000000        0x2 obj_realforce/common/avr/suspend.o
+ .data          0x00000000        0x0 obj_realforce/common/avr/xprintf.o
+ .text          0x00000000        0x0 obj_realforce/common/avr/timer.o
+ .data          0x00000000        0x0 obj_realforce/common/avr/timer.o
+ .bss           0x00000000        0x0 obj_realforce/common/avr/timer.o
+ .text.timer_clear
+                0x00000000       0x18 obj_realforce/common/avr/timer.o
+ .text.timer_read32
+                0x00000000       0x18 obj_realforce/common/avr/timer.o
+ .text.timer_elapsed
+                0x00000000       0x54 obj_realforce/common/avr/timer.o
+ .text.timer_elapsed32
+                0x00000000       0x58 obj_realforce/common/avr/timer.o
+ .text          0x00000000        0x0 obj_realforce/common/avr/bootloader.o
+ .data          0x00000000        0x0 obj_realforce/common/avr/bootloader.o
+ .bss           0x00000000        0x0 obj_realforce/common/avr/bootloader.o
+ .text          0x00000000        0x0 obj_realforce/common/command.o
+ .data          0x00000000        0x0 obj_realforce/common/command.o
+ .bss           0x00000000        0x0 obj_realforce/common/command.o
+ .text          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .data          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .bss           0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+ .text          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eerd_byte.o)
+ .data          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eerd_byte.o)
+ .bss           0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eerd_byte.o)
+ .text.avr-libc
+                0x00000000       0x10 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eerd_byte.o)
+ .text          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eeupd_byte.o)
+ .data          0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eeupd_byte.o)
+ .bss           0x00000000        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eeupd_byte.o)
+ .text.avr-libc
+                0x00000000       0x24 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eeupd_byte.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x0000ff00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+LOAD obj_realforce/realforce.o
+LOAD obj_realforce/keymap.o
+LOAD obj_realforce/capsense.o
+LOAD obj_realforce/protocol/lufa/lufa.o
+LOAD obj_realforce/protocol/lufa/descriptor.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+LOAD obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+LOAD obj_realforce/common/host.o
+LOAD obj_realforce/common/keyboard.o
+LOAD obj_realforce/common/action.o
+LOAD obj_realforce/common/action_tapping.o
+LOAD obj_realforce/common/action_macro.o
+LOAD obj_realforce/common/action_layer.o
+LOAD obj_realforce/common/action_util.o
+LOAD obj_realforce/common/keymap.o
+LOAD obj_realforce/common/print.o
+LOAD obj_realforce/common/debug.o
+LOAD obj_realforce/common/util.o
+LOAD obj_realforce/common/avr/suspend.o
+LOAD obj_realforce/common/avr/xprintf.o
+LOAD obj_realforce/common/avr/timer.o
+LOAD obj_realforce/common/avr/bootloader.o
+LOAD obj_realforce/common/command.o
+LOAD c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+START GROUP
+LOAD c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a
+LOAD c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+LOAD c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a
+LOAD c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a
+END GROUP
+                0x00020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x0000ff00                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xff00
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x3656
+ *(.vectors)
+ .vectors       0x00000000       0x98 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.USB_Device_ProcessControlRequest
+                0x00000098       0x14 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .progmem.gcc_sw_table.process_action
+                0x000000ac       0x20 obj_realforce/common/action.o
+                0x000000cc                . = ALIGN (0x2)
+                0x000000cc                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000cc        0x0 linker stubs
+ *(.trampolines*)
+                0x000000cc                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.__c.2520
+                0x000000cc        0x3 obj_realforce/realforce.o
+ .progmem.data.__c.2515
+                0x000000cf        0xd obj_realforce/realforce.o
+ .progmem.data.fn_actions
+                0x000000dc        0x0 obj_realforce/keymap.o
+                0x000000dc                fn_actions
+ .progmem.data.keymaps
+                0x000000dc       0x6c obj_realforce/keymap.o
+                0x000000dc                keymaps
+ .progmem.data.__c.4811
+                0x00000148        0x4 obj_realforce/protocol/lufa/lufa.o
+ .progmem.data.__c.4809
+                0x0000014c       0x11 obj_realforce/protocol/lufa/lufa.o
+ .progmem.data.__c.4807
+                0x0000015d       0x11 obj_realforce/protocol/lufa/lufa.o
+ .progmem.data.__c.4713
+                0x0000016e        0x4 obj_realforce/protocol/lufa/lufa.o
+ .progmem.data.__c.4709
+                0x00000172        0x4 obj_realforce/protocol/lufa/lufa.o
+ .progmem.data.__c.4705
+                0x00000176        0x4 obj_realforce/protocol/lufa/lufa.o
+ .progmem.data.__c.4700
+                0x0000017a        0x4 obj_realforce/protocol/lufa/lufa.o
+ .progmem.data.__c.4695
+                0x0000017e        0x4 obj_realforce/protocol/lufa/lufa.o
+ .progmem.data.ProductString
+                0x00000182       0x2a obj_realforce/protocol/lufa/descriptor.o
+                0x00000182                ProductString
+ .progmem.data.ManufacturerString
+                0x000001ac        0xa obj_realforce/protocol/lufa/descriptor.o
+                0x000001ac                ManufacturerString
+ .progmem.data.LanguageString
+                0x000001b6        0x4 obj_realforce/protocol/lufa/descriptor.o
+                0x000001b6                LanguageString
+ .progmem.data.ConfigurationDescriptor
+                0x000001ba       0x42 obj_realforce/protocol/lufa/descriptor.o
+                0x000001ba                ConfigurationDescriptor
+ .progmem.data.DeviceDescriptor
+                0x000001fc       0x12 obj_realforce/protocol/lufa/descriptor.o
+                0x000001fc                DeviceDescriptor
+ .progmem.data.ConsoleReport
+                0x0000020e       0x20 obj_realforce/protocol/lufa/descriptor.o
+                0x0000020e                ConsoleReport
+ .progmem.data.KeyboardReport
+                0x0000022e       0x3f obj_realforce/protocol/lufa/descriptor.o
+                0x0000022e                KeyboardReport
+ .progmem.data.__c.2014
+                0x0000026d        0x2 obj_realforce/common/host.o
+ .progmem.data.__c.2009
+                0x0000026f        0x6 obj_realforce/common/host.o
+ .progmem.data.__c.2006
+                0x00000275       0x12 obj_realforce/common/host.o
+ .progmem.data.__c.2321
+                0x00000287        0x2 obj_realforce/common/keyboard.o
+ .progmem.data.__c.2319
+                0x00000289        0x5 obj_realforce/common/keyboard.o
+ .progmem.data.__c.2317
+                0x0000028e       0x13 obj_realforce/common/keyboard.o
+ .progmem.data.__c.2575
+                0x000002a1        0x2 obj_realforce/common/command.o
+ .progmem.data.__c.2577
+                0x000002a3        0x4 obj_realforce/common/command.o
+ .progmem.data.__c.2595
+                0x000002a7        0x5 obj_realforce/common/command.o
+ .progmem.data.__c.2564
+                0x000002ac       0x1b obj_realforce/common/command.o
+ .progmem.data.__c.2493
+                0x000002c7       0x93 obj_realforce/common/command.o
+ .progmem.data.__c.2559
+                0x0000035a        0x2 obj_realforce/common/command.o
+ .progmem.data.__c.2550
+                0x0000035c       0x14 obj_realforce/common/command.o
+ .progmem.data.__c.2548
+                0x00000370       0x13 obj_realforce/common/command.o
+ .progmem.data.__c.2546
+                0x00000383       0x17 obj_realforce/common/command.o
+ .progmem.data.__c.2544
+                0x0000039a       0x1a obj_realforce/common/command.o
+ .progmem.data.__c.2542
+                0x000003b4        0xe obj_realforce/common/command.o
+ .progmem.data.__c.2539
+                0x000003c2       0x2c obj_realforce/common/command.o
+ .progmem.data.__c.2537
+                0x000003ee       0x24 obj_realforce/common/command.o
+ .progmem.data.__c.2535
+                0x00000412       0x2d obj_realforce/common/command.o
+ .progmem.data.__c.2533
+                0x0000043f       0x3f obj_realforce/common/command.o
+ .progmem.data.__c.2531
+                0x0000047e       0x20 obj_realforce/common/command.o
+ .progmem.data.__c.2529
+                0x0000049e        0xf obj_realforce/common/command.o
+ .progmem.data.__c.2526
+                0x000004ad        0xd obj_realforce/common/command.o
+ .progmem.data.__c.2524
+                0x000004ba        0xc obj_realforce/common/command.o
+ .progmem.data.__c.2521
+                0x000004c6       0x10 obj_realforce/common/command.o
+ .progmem.data.__c.2519
+                0x000004d6        0xf obj_realforce/common/command.o
+ .progmem.data.__c.2516
+                0x000004e5        0xe obj_realforce/common/command.o
+ .progmem.data.__c.2514
+                0x000004f3        0xd obj_realforce/common/command.o
+ .progmem.data.__c.2511
+                0x00000500        0xc obj_realforce/common/command.o
+ .progmem.data.__c.2509
+                0x0000050c        0xd obj_realforce/common/command.o
+ .progmem.data.__c.2506
+                0x00000519       0x11 obj_realforce/common/command.o
+ .progmem.data.__c.2503
+                0x0000052a        0x4 obj_realforce/common/command.o
+                0x0000052e                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000052e                __ctors_start = .
+ *(.ctors)
+                0x0000052e                __ctors_end = .
+                0x0000052e                __dtors_start = .
+ *(.dtors)
+                0x0000052e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000052e        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+                0x0000052e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000052e        0xc c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+ *(.init2)
+ *(.init3)
+ .init3         0x0000053a       0x54 obj_realforce/common/avr/bootloader.o
+                0x0000053a                bootloader_jump_after_watchdog_reset
+ *(.init3)
+ *(.init4)
+ .init4         0x0000058e       0x1a c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                0x0000058e                __do_copy_data
+ .init4         0x000005a8       0x10 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                0x000005a8                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000005b8        0x8 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+ *(.init9)
+ *(.text)
+ .text          0x000005c0        0x4 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+                0x000005c0                __vector_22
+                0x000005c0                __vector_28
+                0x000005c0                __vector_1
+                0x000005c0                __vector_32
+                0x000005c0                __vector_34
+                0x000005c0                __vector_24
+                0x000005c0                __bad_interrupt
+                0x000005c0                __vector_6
+                0x000005c0                __vector_31
+                0x000005c0                __vector_35
+                0x000005c0                __vector_3
+                0x000005c0                __vector_23
+                0x000005c0                __vector_30
+                0x000005c0                __vector_25
+                0x000005c0                __vector_11
+                0x000005c0                __vector_13
+                0x000005c0                __vector_17
+                0x000005c0                __vector_19
+                0x000005c0                __vector_7
+                0x000005c0                __vector_27
+                0x000005c0                __vector_5
+                0x000005c0                __vector_33
+                0x000005c0                __vector_37
+                0x000005c0                __vector_4
+                0x000005c0                __vector_9
+                0x000005c0                __vector_2
+                0x000005c0                __vector_15
+                0x000005c0                __vector_36
+                0x000005c0                __vector_29
+                0x000005c0                __vector_8
+                0x000005c0                __vector_26
+                0x000005c0                __vector_14
+                0x000005c0                __vector_16
+                0x000005c0                __vector_18
+                0x000005c0                __vector_20
+ .text          0x000005c4      0x15c obj_realforce/common/avr/xprintf.o
+                0x000005c4                xputc
+                0x000005dc                xputs
+                0x000005ea                xitoa
+                0x0000070e                __xprintf
+                0x00000720                . = ALIGN (0x2)
+ *(.text.*)
+ .text.matrix_setup
+                0x00000720        0x2 obj_realforce/realforce.o
+                0x00000720                matrix_setup
+ .text.matrix_init
+                0x00000722       0xbe obj_realforce/realforce.o
+                0x00000722                matrix_init
+ .text.matrix_scan
+                0x000007e0       0xfc obj_realforce/realforce.o
+                0x000007e0                matrix_scan
+ .text.matrix_get_row
+                0x000008dc       0x10 obj_realforce/realforce.o
+                0x000008dc                matrix_get_row
+ .text.matrix_print
+                0x000008ec       0xf4 obj_realforce/realforce.o
+                0x000008ec                matrix_print
+ .text.matrix_power_up
+                0x000009e0        0x2 obj_realforce/realforce.o
+                0x000009e0                matrix_power_up
+ .text.matrix_power_down
+                0x000009e2        0x2 obj_realforce/realforce.o
+                0x000009e2                matrix_power_down
+ .text.led_set  0x000009e4        0x2 obj_realforce/realforce.o
+                0x000009e4                led_set
+ .text.keymap_key_to_keycode
+                0x000009e6       0x1e obj_realforce/realforce.o
+                0x000009e6                keymap_key_to_keycode
+ .text.keymap_fn_to_action
+                0x00000a04       0x12 obj_realforce/realforce.o
+                0x00000a04                keymap_fn_to_action
+ .text.burst    0x00000a16       0xe0 obj_realforce/capsense.o
+                0x00000a16                burst
+ .text.sense    0x00000af6       0x9a obj_realforce/capsense.o
+                0x00000af6                sense
+ .text.discharge_all
+                0x00000b90       0x18 obj_realforce/capsense.o
+                0x00000b90                discharge_all
+ .text.keyboard_leds
+                0x00000ba8        0x6 obj_realforce/protocol/lufa/lufa.o
+ .text.send_mouse
+                0x00000bae        0x2 obj_realforce/protocol/lufa/lufa.o
+ .text.sendchar
+                0x00000bb0       0xc6 obj_realforce/protocol/lufa/lufa.o
+                0x00000bb0                sendchar
+ .text.send_consumer
+                0x00000c76       0x68 obj_realforce/protocol/lufa/lufa.o
+ .text.send_system
+                0x00000cde       0x68 obj_realforce/protocol/lufa/lufa.o
+ .text.send_keyboard
+                0x00000d46       0x60 obj_realforce/protocol/lufa/lufa.o
+ .text.EVENT_USB_Device_Connect
+                0x00000da6       0x24 obj_realforce/protocol/lufa/lufa.o
+                0x00000da6                EVENT_USB_Device_Connect
+ .text.EVENT_USB_Device_Disconnect
+                0x00000dca        0xe obj_realforce/protocol/lufa/lufa.o
+                0x00000dca                EVENT_USB_Device_Disconnect
+ .text.EVENT_USB_Device_Reset
+                0x00000dd8        0x8 obj_realforce/protocol/lufa/lufa.o
+                0x00000dd8                EVENT_USB_Device_Reset
+ .text.EVENT_USB_Device_Suspend
+                0x00000de0        0x8 obj_realforce/protocol/lufa/lufa.o
+                0x00000de0                EVENT_USB_Device_Suspend
+ .text.EVENT_USB_Device_WakeUp
+                0x00000de8        0xc obj_realforce/protocol/lufa/lufa.o
+                0x00000de8                EVENT_USB_Device_WakeUp
+ .text.EVENT_USB_Device_StartOfFrame
+                0x00000df4       0x82 obj_realforce/protocol/lufa/lufa.o
+                0x00000df4                EVENT_USB_Device_StartOfFrame
+ .text.EVENT_USB_Device_ConfigurationChanged
+                0x00000e76       0x14 obj_realforce/protocol/lufa/lufa.o
+                0x00000e76                EVENT_USB_Device_ConfigurationChanged
+ .text.EVENT_USB_Device_ControlRequest
+                0x00000e8a      0x160 obj_realforce/protocol/lufa/lufa.o
+                0x00000e8a                EVENT_USB_Device_ControlRequest
+ .text.startup.main
+                0x00000fea       0xac obj_realforce/protocol/lufa/lufa.o
+                0x00000fea                main
+ .text.CALLBACK_USB_GetDescriptor
+                0x00001096       0xae obj_realforce/protocol/lufa/descriptor.o
+                0x00001096                CALLBACK_USB_GetDescriptor
+ .text.USB_Device_SendRemoteWakeup
+                0x00001144       0x2c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                0x00001144                USB_Device_SendRemoteWakeup
+ .text.Endpoint_Write_Stream_LE
+                0x00001170       0x9a obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x00001170                Endpoint_Write_Stream_LE
+ .text.Endpoint_Write_Control_Stream_LE
+                0x0000120a       0xc2 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x0000120a                Endpoint_Write_Control_Stream_LE
+ .text.Endpoint_Write_Control_PStream_LE
+                0x000012cc       0xbe obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x000012cc                Endpoint_Write_Control_PStream_LE
+ .text.Endpoint_ConfigureEndpoint_Prv
+                0x0000138a       0x6a obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x0000138a                Endpoint_ConfigureEndpoint_Prv
+ .text.Endpoint_ClearStatusStage
+                0x000013f4       0x3e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x000013f4                Endpoint_ClearStatusStage
+ .text.Endpoint_WaitUntilReady
+                0x00001432       0x64 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x00001432                Endpoint_WaitUntilReady
+ .text.USB_Disable
+                0x00001496       0x34 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x00001496                USB_Disable
+ .text.USB_ResetInterface
+                0x000014ca       0x90 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x000014ca                USB_ResetInterface
+ .text.USB_Init
+                0x0000155a       0x1e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x0000155a                USB_Init
+ .text.USB_INT_DisableAllInterrupts
+                0x00001578       0x10 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x00001578                USB_INT_DisableAllInterrupts
+ .text.USB_INT_ClearAllInterrupts
+                0x00001588        0xa obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x00001588                USB_INT_ClearAllInterrupts
+ .text.__vector_10
+                0x00001592      0x1a2 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x00001592                __vector_10
+ .text.USB_Device_ProcessControlRequest
+                0x00001734      0x2a2 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                0x00001734                USB_Device_ProcessControlRequest
+ .text.USB_USBTask
+                0x000019d6       0x36 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                0x000019d6                USB_USBTask
+ .text.host_set_driver
+                0x00001a0c        0xa obj_realforce/common/host.o
+                0x00001a0c                host_set_driver
+ .text.host_keyboard_leds
+                0x00001a16       0x18 obj_realforce/common/host.o
+                0x00001a16                host_keyboard_leds
+ .text.host_keyboard_send
+                0x00001a2e       0x92 obj_realforce/common/host.o
+                0x00001a2e                host_keyboard_send
+ .text.host_system_send
+                0x00001ac0       0x2c obj_realforce/common/host.o
+                0x00001ac0                host_system_send
+ .text.host_consumer_send
+                0x00001aec       0x2c obj_realforce/common/host.o
+                0x00001aec                host_consumer_send
+ .text.keyboard_setup
+                0x00001b18        0x4 obj_realforce/common/keyboard.o
+                0x00001b18                keyboard_setup
+ .text.keyboard_init
+                0x00001b1c        0x8 obj_realforce/common/keyboard.o
+                0x00001b1c                keyboard_init
+ .text.keyboard_set_leds
+                0x00001b24       0x50 obj_realforce/common/keyboard.o
+                0x00001b24                keyboard_set_leds
+ .text.keyboard_task
+                0x00001b74      0x142 obj_realforce/common/keyboard.o
+                0x00001b74                keyboard_task
+ .text.action_exec
+                0x00001cb6       0x5c obj_realforce/common/action.o
+                0x00001cb6                action_exec
+ .text.register_code
+                0x00001d12      0x13e obj_realforce/common/action.o
+                0x00001d12                register_code
+ .text.unregister_code
+                0x00001e50       0x50 obj_realforce/common/action.o
+                0x00001e50                unregister_code
+ .text.register_mods
+                0x00001ea0        0xe obj_realforce/common/action.o
+                0x00001ea0                register_mods
+ .text.unregister_mods
+                0x00001eae        0xe obj_realforce/common/action.o
+                0x00001eae                unregister_mods
+ .text.process_action
+                0x00001ebc      0x55c obj_realforce/common/action.o
+                0x00001ebc                process_action
+ .text.clear_keyboard_but_mods
+                0x00002418        0xc obj_realforce/common/action.o
+                0x00002418                clear_keyboard_but_mods
+ .text.clear_keyboard
+                0x00002424        0x8 obj_realforce/common/action.o
+                0x00002424                clear_keyboard
+ .text.is_tap_key
+                0x0000242c       0x4c obj_realforce/common/action.o
+                0x0000242c                is_tap_key
+ .text.debug_event
+                0x00002478       0x1e obj_realforce/common/action.o
+                0x00002478                debug_event
+ .text.debug_record
+                0x00002496       0x20 obj_realforce/common/action.o
+                0x00002496                debug_record
+ .text.debug_waiting_buffer
+                0x000024b6       0x42 obj_realforce/common/action_tapping.o
+ .text.debug_tapping_key
+                0x000024f8       0x1c obj_realforce/common/action_tapping.o
+ .text.waiting_buffer_scan_tap
+                0x00002514       0xb6 obj_realforce/common/action_tapping.o
+ .text.process_tapping
+                0x000025ca      0x38e obj_realforce/common/action_tapping.o
+ .text.action_tapping_process
+                0x00002958      0x148 obj_realforce/common/action_tapping.o
+                0x00002958                action_tapping_process
+ .text.action_macro_play
+                0x00002aa0       0xfa obj_realforce/common/action_macro.o
+                0x00002aa0                action_macro_play
+ .text.default_layer_debug
+                0x00002b9a        0x2 obj_realforce/common/action_layer.o
+                0x00002b9a                default_layer_debug
+ .text.default_layer_set
+                0x00002b9c       0x14 obj_realforce/common/action_layer.o
+                0x00002b9c                default_layer_set
+ .text.default_layer_or
+                0x00002bb0       0x38 obj_realforce/common/action_layer.o
+                0x00002bb0                default_layer_or
+ .text.default_layer_and
+                0x00002be8       0x38 obj_realforce/common/action_layer.o
+                0x00002be8                default_layer_and
+ .text.default_layer_xor
+                0x00002c20       0x38 obj_realforce/common/action_layer.o
+                0x00002c20                default_layer_xor
+ .text.layer_clear
+                0x00002c58       0x14 obj_realforce/common/action_layer.o
+                0x00002c58                layer_clear
+ .text.layer_move
+                0x00002c6c       0x2a obj_realforce/common/action_layer.o
+                0x00002c6c                layer_move
+ .text.layer_on
+                0x00002c96       0x42 obj_realforce/common/action_layer.o
+                0x00002c96                layer_on
+ .text.layer_off
+                0x00002cd8       0x4a obj_realforce/common/action_layer.o
+                0x00002cd8                layer_off
+ .text.layer_invert
+                0x00002d22       0x42 obj_realforce/common/action_layer.o
+                0x00002d22                layer_invert
+ .text.layer_or
+                0x00002d64       0x38 obj_realforce/common/action_layer.o
+                0x00002d64                layer_or
+ .text.layer_and
+                0x00002d9c       0x38 obj_realforce/common/action_layer.o
+                0x00002d9c                layer_and
+ .text.layer_xor
+                0x00002dd4       0x38 obj_realforce/common/action_layer.o
+                0x00002dd4                layer_xor
+ .text.layer_debug
+                0x00002e0c        0x2 obj_realforce/common/action_layer.o
+                0x00002e0c                layer_debug
+ .text.layer_switch_get_action
+                0x00002e0e       0x82 obj_realforce/common/action_layer.o
+                0x00002e0e                layer_switch_get_action
+ .text.add_key  0x00002e90       0x3a obj_realforce/common/action_util.o
+                0x00002e90                add_key
+ .text.del_key  0x00002eca       0x22 obj_realforce/common/action_util.o
+                0x00002eca                del_key
+ .text.clear_keys
+                0x00002eec       0x1c obj_realforce/common/action_util.o
+                0x00002eec                clear_keys
+ .text.add_mods
+                0x00002f08        0xc obj_realforce/common/action_util.o
+                0x00002f08                add_mods
+ .text.del_mods
+                0x00002f14        0xe obj_realforce/common/action_util.o
+                0x00002f14                del_mods
+ .text.clear_mods
+                0x00002f22        0x6 obj_realforce/common/action_util.o
+                0x00002f22                clear_mods
+ .text.add_weak_mods
+                0x00002f28        0xc obj_realforce/common/action_util.o
+                0x00002f28                add_weak_mods
+ .text.del_weak_mods
+                0x00002f34        0xe obj_realforce/common/action_util.o
+                0x00002f34                del_weak_mods
+ .text.clear_weak_mods
+                0x00002f42        0x6 obj_realforce/common/action_util.o
+                0x00002f42                clear_weak_mods
+ .text.set_oneshot_mods
+                0x00002f48        0x6 obj_realforce/common/action_util.o
+                0x00002f48                set_oneshot_mods
+ .text.clear_oneshot_mods
+                0x00002f4e        0x6 obj_realforce/common/action_util.o
+                0x00002f4e                clear_oneshot_mods
+ .text.has_anykey
+                0x00002f54       0x22 obj_realforce/common/action_util.o
+                0x00002f54                has_anykey
+ .text.send_keyboard_report
+                0x00002f76       0x4c obj_realforce/common/action_util.o
+                0x00002f76                send_keyboard_report
+ .text.action_for_key
+                0x00002fc2      0x1a0 obj_realforce/common/keymap.o
+                0x00002fc2                action_for_key
+ .text.action_get_macro
+                0x00003162        0x6 obj_realforce/common/keymap.o
+                0x00003162                action_get_macro
+ .text.action_function
+                0x00003168        0x2 obj_realforce/common/keymap.o
+                0x00003168                action_function
+ .text.print_set_sendchar
+                0x0000316a        0xa obj_realforce/common/print.o
+                0x0000316a                print_set_sendchar
+ .text.suspend_power_down
+                0x00003174       0x52 obj_realforce/common/avr/suspend.o
+                0x00003174                suspend_power_down
+ .text.suspend_wakeup_condition
+                0x000031c6       0x28 obj_realforce/common/avr/suspend.o
+                0x000031c6                suspend_wakeup_condition
+ .text.suspend_wakeup_init
+                0x000031ee        0x4 obj_realforce/common/avr/suspend.o
+                0x000031ee                suspend_wakeup_init
+ .text.__vector_12
+                0x000031f2       0x52 obj_realforce/common/avr/suspend.o
+                0x000031f2                __vector_12
+ .text.timer_init
+                0x00003244       0x12 obj_realforce/common/avr/timer.o
+                0x00003244                timer_init
+ .text.timer_read
+                0x00003256       0x18 obj_realforce/common/avr/timer.o
+                0x00003256                timer_read
+ .text.__vector_21
+                0x0000326e       0x4a obj_realforce/common/avr/timer.o
+                0x0000326e                __vector_21
+ .text.bootloader_jump
+                0x000032b8       0x44 obj_realforce/common/avr/bootloader.o
+                0x000032b8                bootloader_jump
+ .text.switch_default_layer
+                0x000032fc       0x40 obj_realforce/common/command.o
+ .text.command_common
+                0x0000333c      0x246 obj_realforce/common/command.o
+ .text.command_extra
+                0x00003582        0x4 obj_realforce/common/command.o
+                0x00003582                command_extra
+ .text.command_console_extra
+                0x00003586        0x4 obj_realforce/common/command.o
+                0x00003586                command_console_extra
+ .text.command_proc
+                0x0000358a       0x9e obj_realforce/common/command.o
+                0x0000358a                command_proc
+ .text.libgcc.div
+                0x00003628       0x18 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+                0x00003628                __udivmodqi4
+ .text.libgcc   0x00003640       0x12 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+                0x00003640                __tablejump2__
+                0x00003652                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003652        0x0 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x00003652                _exit
+                0x00003652                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003652        0x4 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00003656                _etext = .
+
+.data           0x00800100        0xe load address 0x00003656
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.lufa_driver
+                0x00800100        0xa obj_realforce/protocol/lufa/lufa.o
+                0x00800100                lufa_driver
+ .data.keyboard_protocol
+                0x0080010a        0x1 obj_realforce/protocol/lufa/lufa.o
+                0x0080010a                keyboard_protocol
+ .data.keyboard_report
+                0x0080010b        0x2 obj_realforce/common/action_util.o
+                0x0080010b                keyboard_report
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080010e                . = ALIGN (0x2)
+ *fill*         0x0080010d        0x1 
+                0x0080010e                _edata = .
+                0x0080010e                PROVIDE (__data_end, .)
+
+.bss            0x0080010e      0x1c7
+                0x0080010e                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080010e        0x2 obj_realforce/common/avr/xprintf.o
+                0x0080010e                xfunc_out
+ *(.bss*)
+ .bss.timeouted.4781
+                0x00800110        0x1 obj_realforce/protocol/lufa/lufa.o
+ .bss.count.4719
+                0x00800111        0x1 obj_realforce/protocol/lufa/lufa.o
+ .bss.console_flush
+                0x00800112        0x1 obj_realforce/protocol/lufa/lufa.o
+ .bss.keyboard_report_sent
+                0x00800113        0x8 obj_realforce/protocol/lufa/lufa.o
+ .bss.keyboard_led_stats
+                0x0080011b        0x1 obj_realforce/protocol/lufa/lufa.o
+ .bss.keyboard_idle
+                0x0080011c        0x1 obj_realforce/protocol/lufa/lufa.o
+                0x0080011c                keyboard_idle
+ .bss.last_consumer_report
+                0x0080011d        0x2 obj_realforce/common/host.o
+ .bss.last_system_report
+                0x0080011f        0x2 obj_realforce/common/host.o
+ .bss.driver    0x00800121        0x2 obj_realforce/common/host.o
+ .bss.led_status.2298
+                0x00800123        0x1 obj_realforce/common/keyboard.o
+ .bss.matrix_prev.2297
+                0x00800124       0x12 obj_realforce/common/keyboard.o
+ .bss.waiting_buffer_tail
+                0x00800136        0x1 obj_realforce/common/action_tapping.o
+ .bss.waiting_buffer_head
+                0x00800137        0x1 obj_realforce/common/action_tapping.o
+ .bss.waiting_buffer
+                0x00800138       0x30 obj_realforce/common/action_tapping.o
+ .bss.tapping_key
+                0x00800168        0x6 obj_realforce/common/action_tapping.o
+ .bss.layer_state
+                0x0080016e        0x4 obj_realforce/common/action_layer.o
+                0x0080016e                layer_state
+ .bss.default_layer_state
+                0x00800172        0x4 obj_realforce/common/action_layer.o
+                0x00800172                default_layer_state
+ .bss.oneshot_mods
+                0x00800176        0x1 obj_realforce/common/action_util.o
+ .bss.__compound_literal.0
+                0x00800177        0x8 obj_realforce/common/action_util.o
+ .bss.weak_mods
+                0x0080017f        0x1 obj_realforce/common/action_util.o
+ .bss.real_mods
+                0x00800180        0x1 obj_realforce/common/action_util.o
+ .bss.debug_config
+                0x00800181        0x1 obj_realforce/common/debug.o
+                0x00800181                debug_config
+ .bss.wdt_timeout
+                0x00800182        0x1 obj_realforce/common/avr/suspend.o
+ .bss.timer_count
+                0x00800183        0x4 obj_realforce/common/avr/timer.o
+                0x00800183                timer_count
+ .bss.command_state
+                0x00800187        0x1 obj_realforce/common/command.o
+                0x00800187                command_state
+ *(COMMON)
+ COMMON         0x00800188      0x140 obj_realforce/realforce.o
+                0x00800188                key
+                0x008001a8                avg
+                0x00800208                counts
+ COMMON         0x008002c8        0x3 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                0x008002c8                USB_Device_ConfigurationNumber
+                0x008002c9                USB_Device_CurrentlySelfPowered
+                0x008002ca                USB_Device_RemoteWakeupEnabled
+ COMMON         0x008002cb        0xa obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                0x008002cb                USB_IsInitialized
+                0x008002cc                USB_DeviceState
+                0x008002cd                USB_ControlRequest
+                0x008002d5                PROVIDE (__bss_end, .)
+                0x00003656                __data_load_start = LOADADDR (.data)
+                0x00003664                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008002d5        0x4
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+ .noinit        0x008002d5        0x4 obj_realforce/common/avr/bootloader.o
+                0x008002d5                reset_key
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x008002d9                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000      0x8b8
+ *(.stab)
+ .stab          0x00000000      0x8b8 obj_realforce/common/avr/xprintf.o
+
+.stabstr        0x00000000       0x76
+ *(.stabstr)
+ .stabstr       0x00000000       0x76 obj_realforce/common/avr/xprintf.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 obj_realforce/realforce.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 obj_realforce/keymap.o
+ .comment       0x00000030       0x31 obj_realforce/capsense.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/lufa.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/descriptor.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .comment       0x00000030       0x31 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .comment       0x00000030       0x31 obj_realforce/common/host.o
+ .comment       0x00000030       0x31 obj_realforce/common/keyboard.o
+ .comment       0x00000030       0x31 obj_realforce/common/action.o
+ .comment       0x00000030       0x31 obj_realforce/common/action_tapping.o
+ .comment       0x00000030       0x31 obj_realforce/common/action_macro.o
+ .comment       0x00000030       0x31 obj_realforce/common/action_layer.o
+ .comment       0x00000030       0x31 obj_realforce/common/action_util.o
+ .comment       0x00000030       0x31 obj_realforce/common/keymap.o
+ .comment       0x00000030       0x31 obj_realforce/common/print.o
+ .comment       0x00000030       0x31 obj_realforce/common/debug.o
+ .comment       0x00000030       0x31 obj_realforce/common/avr/suspend.o
+ .comment       0x00000030       0x31 obj_realforce/common/avr/timer.o
+ .comment       0x00000030       0x31 obj_realforce/common/avr/bootloader.o
+ .comment       0x00000030       0x31 obj_realforce/common/command.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x768
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x80 obj_realforce/realforce.o
+ .debug_aranges
+                0x00000080       0x18 obj_realforce/keymap.o
+ .debug_aranges
+                0x00000098       0x30 obj_realforce/capsense.o
+ .debug_aranges
+                0x000000c8       0x90 obj_realforce/protocol/lufa/lufa.o
+ .debug_aranges
+                0x00000158       0x20 obj_realforce/protocol/lufa/descriptor.o
+ .debug_aranges
+                0x00000178       0x20 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_aranges
+                0x00000198       0xc8 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_aranges
+                0x00000260       0x40 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_aranges
+                0x000002a0       0x30 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_aranges
+                0x000002d0       0x30 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_aranges
+                0x00000300       0x20 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_aranges
+                0x00000320       0x20 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_aranges
+                0x00000340       0x60 obj_realforce/common/host.o
+ .debug_aranges
+                0x000003a0       0x40 obj_realforce/common/keyboard.o
+ .debug_aranges
+                0x000003e0       0x78 obj_realforce/common/action.o
+ .debug_aranges
+                0x00000458       0x40 obj_realforce/common/action_tapping.o
+ .debug_aranges
+                0x00000498       0x20 obj_realforce/common/action_macro.o
+ .debug_aranges
+                0x000004b8       0x90 obj_realforce/common/action_layer.o
+ .debug_aranges
+                0x00000548       0xb0 obj_realforce/common/action_util.o
+ .debug_aranges
+                0x000005f8       0x30 obj_realforce/common/keymap.o
+ .debug_aranges
+                0x00000628       0x20 obj_realforce/common/print.o
+ .debug_aranges
+                0x00000648       0x18 obj_realforce/common/debug.o
+ .debug_aranges
+                0x00000660       0x50 obj_realforce/common/avr/suspend.o
+ .debug_aranges
+                0x000006b0       0x50 obj_realforce/common/avr/timer.o
+ .debug_aranges
+                0x00000700       0x28 obj_realforce/common/avr/bootloader.o
+ .debug_aranges
+                0x00000728       0x40 obj_realforce/common/command.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xd0b7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x995 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+ .debug_info    0x00000995      0xa56 obj_realforce/realforce.o
+ .debug_info    0x000013eb      0x55d obj_realforce/keymap.o
+ .debug_info    0x00001948      0x419 obj_realforce/capsense.o
+ .debug_info    0x00001d61     0x1334 obj_realforce/protocol/lufa/lufa.o
+ .debug_info    0x00003095      0x724 obj_realforce/protocol/lufa/descriptor.o
+ .debug_info    0x000037b9       0xd2 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_info    0x0000388b     0x183a obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_info    0x000050c5      0x614 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_info    0x000056d9      0x4cb obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_info    0x00005ba4      0x673 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_info    0x00006217      0xa57 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_info    0x00006c6e      0x26b obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_info    0x00006ed9      0x4e2 obj_realforce/common/host.o
+ .debug_info    0x000073bb      0x445 obj_realforce/common/keyboard.o
+ .debug_info    0x00007800     0x140c obj_realforce/common/action.o
+ .debug_info    0x00008c0c      0xe03 obj_realforce/common/action_tapping.o
+ .debug_info    0x00009a0f      0x825 obj_realforce/common/action_macro.o
+ .debug_info    0x0000a234      0x824 obj_realforce/common/action_layer.o
+ .debug_info    0x0000aa58      0x4fe obj_realforce/common/action_util.o
+ .debug_info    0x0000af56      0xda1 obj_realforce/common/keymap.o
+ .debug_info    0x0000bcf7       0xda obj_realforce/common/print.o
+ .debug_info    0x0000bdd1       0xfc obj_realforce/common/debug.o
+ .debug_info    0x0000becd      0x2b5 obj_realforce/common/avr/suspend.o
+ .debug_info    0x0000c182      0x204 obj_realforce/common/avr/timer.o
+ .debug_info    0x0000c386      0x204 obj_realforce/common/avr/bootloader.o
+ .debug_info    0x0000c58a      0xb2d obj_realforce/common/command.o
+
+.debug_abbrev   0x00000000     0x3b6e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x910 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+ .debug_abbrev  0x00000910      0x362 obj_realforce/realforce.o
+ .debug_abbrev  0x00000c72       0x7e obj_realforce/keymap.o
+ .debug_abbrev  0x00000cf0      0x156 obj_realforce/capsense.o
+ .debug_abbrev  0x00000e46      0x4ba obj_realforce/protocol/lufa/lufa.o
+ .debug_abbrev  0x00001300      0x177 obj_realforce/protocol/lufa/descriptor.o
+ .debug_abbrev  0x00001477       0x80 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_abbrev  0x000014f7      0x215 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_abbrev  0x0000170c      0x213 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_abbrev  0x0000191f      0x196 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_abbrev  0x00001ab5      0x1d5 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_abbrev  0x00001c8a      0x2c9 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_abbrev  0x00001f53      0x168 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_abbrev  0x000020bb      0x204 obj_realforce/common/host.o
+ .debug_abbrev  0x000022bf      0x20e obj_realforce/common/keyboard.o
+ .debug_abbrev  0x000024cd      0x2a3 obj_realforce/common/action.o
+ .debug_abbrev  0x00002770      0x2d7 obj_realforce/common/action_tapping.o
+ .debug_abbrev  0x00002a47      0x17a obj_realforce/common/action_macro.o
+ .debug_abbrev  0x00002bc1      0x213 obj_realforce/common/action_layer.o
+ .debug_abbrev  0x00002dd4      0x246 obj_realforce/common/action_util.o
+ .debug_abbrev  0x0000301a      0x2a5 obj_realforce/common/keymap.o
+ .debug_abbrev  0x000032bf       0x97 obj_realforce/common/print.o
+ .debug_abbrev  0x00003356       0x87 obj_realforce/common/debug.o
+ .debug_abbrev  0x000033dd      0x1e0 obj_realforce/common/avr/suspend.o
+ .debug_abbrev  0x000035bd      0x11e obj_realforce/common/avr/timer.o
+ .debug_abbrev  0x000036db      0x15c obj_realforce/common/avr/bootloader.o
+ .debug_abbrev  0x00003837      0x337 obj_realforce/common/command.o
+
+.debug_line     0x00000000     0x622c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+ .debug_line    0x0000001a      0x339 obj_realforce/realforce.o
+ .debug_line    0x00000353       0x8a obj_realforce/keymap.o
+ .debug_line    0x000003dd      0x1c6 obj_realforce/capsense.o
+ .debug_line    0x000005a3      0x9c5 obj_realforce/protocol/lufa/lufa.o
+ .debug_line    0x00000f68      0x2a4 obj_realforce/protocol/lufa/descriptor.o
+ .debug_line    0x0000120c      0x15e obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_line    0x0000136a     0x14c6 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_line    0x00002830      0x535 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_line    0x00002d65      0x379 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_line    0x000030de      0x4ff obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_line    0x000035dd      0x4e0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_line    0x00003abd      0x1c8 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_line    0x00003c85      0x23f obj_realforce/common/host.o
+ .debug_line    0x00003ec4      0x240 obj_realforce/common/keyboard.o
+ .debug_line    0x00004104      0x741 obj_realforce/common/action.o
+ .debug_line    0x00004845      0x4fa obj_realforce/common/action_tapping.o
+ .debug_line    0x00004d3f      0x1c0 obj_realforce/common/action_macro.o
+ .debug_line    0x00004eff      0x2c2 obj_realforce/common/action_layer.o
+ .debug_line    0x000051c1      0x2fc obj_realforce/common/action_util.o
+ .debug_line    0x000054bd      0x1bb obj_realforce/common/keymap.o
+ .debug_line    0x00005678       0xb3 obj_realforce/common/print.o
+ .debug_line    0x0000572b       0x87 obj_realforce/common/debug.o
+ .debug_line    0x000057b2      0x2af obj_realforce/common/avr/suspend.o
+ .debug_line    0x00005a61      0x1de obj_realforce/common/avr/timer.o
+ .debug_line    0x00005c3f      0x23a obj_realforce/common/avr/bootloader.o
+ .debug_line    0x00005e79      0x3b3 obj_realforce/common/command.o
+
+.debug_frame    0x00000000     0x1364
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1d8 obj_realforce/realforce.o
+ .debug_frame   0x000001d8       0x44 obj_realforce/capsense.o
+ .debug_frame   0x0000021c      0x138 obj_realforce/protocol/lufa/lufa.o
+ .debug_frame   0x00000354       0x24 obj_realforce/protocol/lufa/descriptor.o
+ .debug_frame   0x00000378       0x24 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_frame   0x0000039c      0x42c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_frame   0x000007c8       0x88 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_frame   0x00000850       0x5c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_frame   0x000008ac       0x98 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_frame   0x00000944       0x3c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_frame   0x00000980       0x2c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_frame   0x000009ac       0xd8 obj_realforce/common/host.o
+ .debug_frame   0x00000a84       0xb4 obj_realforce/common/keyboard.o
+ .debug_frame   0x00000b38      0x150 obj_realforce/common/action.o
+ .debug_frame   0x00000c88       0xc8 obj_realforce/common/action_tapping.o
+ .debug_frame   0x00000d50       0x48 obj_realforce/common/action_macro.o
+ .debug_frame   0x00000d98      0x17c obj_realforce/common/action_layer.o
+ .debug_frame   0x00000f14      0x144 obj_realforce/common/action_util.o
+ .debug_frame   0x00001058       0x50 obj_realforce/common/keymap.o
+ .debug_frame   0x000010a8       0x24 obj_realforce/common/print.o
+ .debug_frame   0x000010cc       0xb0 obj_realforce/common/avr/suspend.o
+ .debug_frame   0x0000117c       0xf0 obj_realforce/common/avr/timer.o
+ .debug_frame   0x0000126c       0x34 obj_realforce/common/avr/bootloader.o
+ .debug_frame   0x000012a0       0xc4 obj_realforce/common/command.o
+
+.debug_str      0x00000000     0x39ae
+ *(.debug_str)
+ .debug_str     0x00000000      0x349 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+ .debug_str     0x00000349      0x6da obj_realforce/realforce.o
+                                0x767 (size before relaxing)
+ .debug_str     0x00000a23      0x5c6 obj_realforce/keymap.o
+                                0x781 (size before relaxing)
+ .debug_str     0x00000fe9       0x84 obj_realforce/capsense.o
+                                0x23a (size before relaxing)
+ .debug_str     0x0000106d      0x829 obj_realforce/protocol/lufa/lufa.o
+                                0xa85 (size before relaxing)
+ .debug_str     0x00001896      0x712 obj_realforce/protocol/lufa/descriptor.o
+                                0x933 (size before relaxing)
+ .debug_str     0x00001fa8       0x75 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                                0x22d (size before relaxing)
+ .debug_str     0x0000201d      0x4f7 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                0x89b (size before relaxing)
+ .debug_str     0x00002514      0x224 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                0x64f (size before relaxing)
+ .debug_str     0x00002738      0x1d7 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                0x58e (size before relaxing)
+ .debug_str     0x0000290f       0xcb obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                0x563 (size before relaxing)
+ .debug_str     0x000029da      0x432 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                0xa01 (size before relaxing)
+ .debug_str     0x00002e0c       0x5c obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                0x3b4 (size before relaxing)
+ .debug_str     0x00002e68       0xed obj_realforce/common/host.o
+                                0x37f (size before relaxing)
+ .debug_str     0x00002f55       0xa7 obj_realforce/common/keyboard.o
+                                0x345 (size before relaxing)
+ .debug_str     0x00002ffc      0x41c obj_realforce/common/action.o
+                               0x107f (size before relaxing)
+ .debug_str     0x00003418       0xe6 obj_realforce/common/action_tapping.o
+                                0xaff (size before relaxing)
+ .debug_str     0x000034fe       0x5f obj_realforce/common/action_macro.o
+                                0x88c (size before relaxing)
+ .debug_str     0x0000355d       0x73 obj_realforce/common/action_layer.o
+                                0x413 (size before relaxing)
+ .debug_str     0x000035d0       0xa1 obj_realforce/common/action_util.o
+                                0x345 (size before relaxing)
+ .debug_str     0x00003671       0x61 obj_realforce/common/keymap.o
+                                0xdef (size before relaxing)
+ .debug_str     0x000036d2       0x30 obj_realforce/common/print.o
+                                0x1d7 (size before relaxing)
+ .debug_str     0x00003702       0x18 obj_realforce/common/debug.o
+                                0x1ed (size before relaxing)
+ .debug_str     0x0000371a       0x54 obj_realforce/common/avr/suspend.o
+                                0x371 (size before relaxing)
+ .debug_str     0x0000376e       0x64 obj_realforce/common/avr/timer.o
+                                0x22a (size before relaxing)
+ .debug_str     0x000037d2       0x61 obj_realforce/common/avr/bootloader.o
+                                0x297 (size before relaxing)
+ .debug_str     0x00003833      0x17b obj_realforce/common/command.o
+                                0xa8d (size before relaxing)
+
+.debug_loc      0x00000000     0x6279
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x421 obj_realforce/realforce.o
+ .debug_loc     0x00000421      0x2f9 obj_realforce/capsense.o
+ .debug_loc     0x0000071a      0x5ad obj_realforce/protocol/lufa/lufa.o
+ .debug_loc     0x00000cc7      0x2e7 obj_realforce/protocol/lufa/descriptor.o
+ .debug_loc     0x00000fae     0x1eb0 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_loc     0x00002e5e      0x3df obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_loc     0x0000323d       0x49 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_loc     0x00003286      0x247 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_loc     0x000034cd      0x2e7 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_loc     0x000037b4       0x49 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_loc     0x000037fd      0x1c2 obj_realforce/common/host.o
+ .debug_loc     0x000039bf      0x1f1 obj_realforce/common/keyboard.o
+ .debug_loc     0x00003bb0      0xca1 obj_realforce/common/action.o
+ .debug_loc     0x00004851      0x64e obj_realforce/common/action_tapping.o
+ .debug_loc     0x00004e9f      0x4f9 obj_realforce/common/action_macro.o
+ .debug_loc     0x00005398      0x695 obj_realforce/common/action_layer.o
+ .debug_loc     0x00005a2d      0x1d2 obj_realforce/common/action_util.o
+ .debug_loc     0x00005bff      0x155 obj_realforce/common/keymap.o
+ .debug_loc     0x00005d54       0xc5 obj_realforce/common/avr/suspend.o
+ .debug_loc     0x00005e19      0x20a obj_realforce/common/avr/timer.o
+ .debug_loc     0x00006023      0x256 obj_realforce/common/command.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x968
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xd0 obj_realforce/realforce.o
+ .debug_ranges  0x000000d0       0x50 obj_realforce/capsense.o
+ .debug_ranges  0x00000120       0x80 obj_realforce/protocol/lufa/lufa.o
+ .debug_ranges  0x000001a0       0x10 obj_realforce/protocol/lufa/descriptor.o
+ .debug_ranges  0x000001b0       0x10 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_ranges  0x000001c0      0x1f8 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_ranges  0x000003b8       0x78 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_ranges  0x00000430       0x20 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_ranges  0x00000450       0x20 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_ranges  0x00000470       0x28 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_ranges  0x00000498       0x10 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_ranges  0x000004a8       0x50 obj_realforce/common/host.o
+ .debug_ranges  0x000004f8       0x50 obj_realforce/common/keyboard.o
+ .debug_ranges  0x00000548       0xf0 obj_realforce/common/action.o
+ .debug_ranges  0x00000638       0x48 obj_realforce/common/action_tapping.o
+ .debug_ranges  0x00000680       0x28 obj_realforce/common/action_macro.o
+ .debug_ranges  0x000006a8      0x110 obj_realforce/common/action_layer.o
+ .debug_ranges  0x000007b8       0xb8 obj_realforce/common/action_util.o
+ .debug_ranges  0x00000870       0x20 obj_realforce/common/keymap.o
+ .debug_ranges  0x00000890       0x10 obj_realforce/common/print.o
+ .debug_ranges  0x000008a0       0x40 obj_realforce/common/avr/suspend.o
+ .debug_ranges  0x000008e0       0x40 obj_realforce/common/avr/timer.o
+ .debug_ranges  0x00000920       0x18 obj_realforce/common/avr/bootloader.o
+ .debug_ranges  0x00000938       0x30 obj_realforce/common/command.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(realforce.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+CALLBACK_HIDParser_FilterHIDReportItem            obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+CALLBACK_USB_GetDescriptor                        obj_realforce/protocol/lufa/descriptor.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ConfigurationDescriptor                           obj_realforce/protocol/lufa/descriptor.o
+ConsoleReport                                     obj_realforce/protocol/lufa/descriptor.o
+DeviceDescriptor                                  obj_realforce/protocol/lufa/descriptor.o
+EVENT_USB_Device_ConfigurationChanged             obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+EVENT_USB_Device_Connect                          obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_ControlRequest                   obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+EVENT_USB_Device_Disconnect                       obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_Reset                            obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_StartOfFrame                     obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_Suspend                          obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_WakeUp                           obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+Endpoint_ClearEndpoints                           obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+Endpoint_ClearStatusStage                         obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+Endpoint_ConfigureEndpointTable                   obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+Endpoint_ConfigureEndpoint_Prv                    obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+Endpoint_Discard_Stream                           obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Null_Stream                              obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_BE                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_LE                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_BE                   obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_LE                   obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_EStream_BE                          obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_EStream_LE                          obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Stream_BE                           obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Stream_LE                           obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_WaitUntilReady                           obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_BE                 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_LE                 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_BE                 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_LE                 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+Endpoint_Write_Control_Stream_BE                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_Stream_LE                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+Endpoint_Write_EStream_BE                         obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_EStream_LE                         obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_PStream_BE                         obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_PStream_LE                         obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Stream_BE                          obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Stream_LE                          obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+KeyboardReport                                    obj_realforce/protocol/lufa/descriptor.o
+LanguageString                                    obj_realforce/protocol/lufa/descriptor.o
+ManufacturerString                                obj_realforce/protocol/lufa/descriptor.o
+ProductString                                     obj_realforce/protocol/lufa/descriptor.o
+USB_ControlRequest                                obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+USB_DeviceState                                   obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  obj_realforce/common/avr/suspend.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+USB_Device_ConfigurationNumber                    obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_Device_CurrentlySelfPowered                   obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_Device_ProcessControlRequest                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+USB_Device_RemoteWakeupEnabled                    obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+USB_Device_SendRemoteWakeup                       obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+USB_Disable                                       obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  obj_realforce/common/avr/bootloader.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+USB_Event_Stub                                    obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+USB_GetHIDReportItemInfo                          obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+USB_GetHIDReportSize                              obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+USB_GetNextDescriptorComp                         obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+USB_GetNextDescriptorOfType                       obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeAfter                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeBefore                 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+USB_INT_ClearAllInterrupts                        obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_INT_DisableAllInterrupts                      obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_Init                                          obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+USB_IsInitialized                                 obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+USB_ProcessHIDReport                              obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+USB_ResetInterface                                obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_SetHIDReportItemInfo                          obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+USB_USBTask                                       obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+__FUSE_REGION_LENGTH__                            c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__bad_interrupt                                   c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__bss_end                                         c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+__data_end                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+__data_start                                      c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+__do_clear_bss                                    c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                                                  obj_realforce/common/command.o
+                                                  obj_realforce/common/avr/timer.o
+                                                  obj_realforce/common/avr/suspend.o
+                                                  obj_realforce/common/debug.o
+                                                  obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action_tapping.o
+                                                  obj_realforce/common/keyboard.o
+                                                  obj_realforce/common/host.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/realforce.o
+__do_copy_data                                    c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                                                  obj_realforce/common/action_util.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+__heap_end                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__init                                            c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__stack                                           c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__tablejump2__                                    c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+                                                  obj_realforce/common/action.o
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+__udivmodqi4                                      c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+                                                  obj_realforce/protocol/lufa/lufa.o
+__vector_1                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_10                                       obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_11                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_12                                       obj_realforce/common/avr/suspend.o
+                                                  c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_13                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_14                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_15                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_16                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_17                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_18                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_19                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_2                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_20                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_21                                       obj_realforce/common/avr/timer.o
+                                                  c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_22                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_23                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_24                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_25                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_26                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_27                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_28                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_29                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_3                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_30                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_31                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_32                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_33                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_34                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_35                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_36                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_37                                       c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_4                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_5                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_6                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_7                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_8                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_9                                        c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vector_default                                  c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__vectors                                         c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+__xprintf                                         obj_realforce/common/avr/xprintf.o
+                                                  obj_realforce/common/command.o
+                                                  obj_realforce/common/keyboard.o
+                                                  obj_realforce/common/host.o
+                                                  obj_realforce/realforce.o
+_exit                                             c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+action_exec                                       obj_realforce/common/action.o
+                                                  obj_realforce/common/keyboard.o
+action_for_key                                    obj_realforce/common/keymap.o
+                                                  obj_realforce/common/action_layer.o
+action_function                                   obj_realforce/common/keymap.o
+                                                  obj_realforce/common/action.o
+action_get_macro                                  obj_realforce/common/keymap.o
+                                                  obj_realforce/common/action.o
+action_macro_play                                 obj_realforce/common/action_macro.o
+                                                  obj_realforce/common/action.o
+action_tapping_process                            obj_realforce/common/action_tapping.o
+                                                  obj_realforce/common/action.o
+add_key                                           obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+add_mods                                          obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+add_weak_mods                                     obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action_macro.o
+                                                  obj_realforce/common/action.o
+avg                                               obj_realforce/realforce.o
+biton                                             obj_realforce/common/util.o
+biton16                                           obj_realforce/common/util.o
+biton32                                           obj_realforce/common/util.o
+bitpop                                            obj_realforce/common/util.o
+                                                  obj_realforce/common/action_util.o
+bitpop16                                          obj_realforce/common/util.o
+bitpop32                                          obj_realforce/common/util.o
+bitrev                                            obj_realforce/common/util.o
+bitrev16                                          obj_realforce/common/util.o
+bitrev32                                          obj_realforce/common/util.o
+bootloader_jump                                   obj_realforce/common/avr/bootloader.o
+                                                  obj_realforce/common/command.o
+                                                  obj_realforce/common/keymap.o
+bootloader_jump_after_watchdog_reset              obj_realforce/common/avr/bootloader.o
+burst                                             obj_realforce/capsense.o
+                                                  obj_realforce/realforce.o
+clear_keyboard                                    obj_realforce/common/action.o
+                                                  obj_realforce/common/command.o
+                                                  obj_realforce/common/avr/suspend.o
+                                                  obj_realforce/common/keymap.o
+                                                  obj_realforce/common/action_tapping.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+clear_keyboard_but_mods                           obj_realforce/common/action.o
+                                                  obj_realforce/common/action_layer.o
+clear_keys                                        obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+clear_mods                                        obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+clear_oneshot_mods                                obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+clear_weak_mods                                   obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+command_console_extra                             obj_realforce/common/command.o
+command_extra                                     obj_realforce/common/command.o
+command_proc                                      obj_realforce/common/command.o
+                                                  obj_realforce/common/action.o
+command_state                                     obj_realforce/common/command.o
+counts                                            obj_realforce/realforce.o
+debug_action                                      obj_realforce/common/action.o
+debug_config                                      obj_realforce/common/debug.o
+                                                  obj_realforce/common/command.o
+                                                  obj_realforce/common/keyboard.o
+                                                  obj_realforce/common/host.o
+debug_event                                       obj_realforce/common/action.o
+                                                  obj_realforce/common/action_tapping.o
+debug_record                                      obj_realforce/common/action.o
+                                                  obj_realforce/common/action_tapping.o
+default_layer_and                                 obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+default_layer_debug                               obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+default_layer_or                                  obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+default_layer_set                                 obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/command.o
+default_layer_state                               obj_realforce/common/action_layer.o
+default_layer_xor                                 obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+del_key                                           obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+del_mods                                          obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+del_weak_mods                                     obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action_macro.o
+                                                  obj_realforce/common/action.o
+discharge_all                                     obj_realforce/capsense.o
+                                                  obj_realforce/realforce.o
+eeprom_read_byte                                  c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eerd_byte.o)
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+eeprom_update_byte                                c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eeupd_byte.o)
+                                                  obj_realforce/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+eeprom_update_r18                                 c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libat90usb1286.a(eeupd_byte.o)
+exit                                              c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                                                  c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+fn_actions                                        obj_realforce/keymap.o
+                                                  obj_realforce/realforce.o
+get_first_key                                     obj_realforce/common/action_util.o
+get_mods                                          obj_realforce/common/action_util.o
+get_weak_mods                                     obj_realforce/common/action_util.o
+has_anykey                                        obj_realforce/common/action_util.o
+has_anymod                                        obj_realforce/common/action_util.o
+host_consumer_send                                obj_realforce/common/host.o
+                                                  obj_realforce/common/action.o
+host_get_driver                                   obj_realforce/common/host.o
+host_keyboard_leds                                obj_realforce/common/host.o
+                                                  obj_realforce/common/command.o
+                                                  obj_realforce/common/keyboard.o
+host_keyboard_send                                obj_realforce/common/host.o
+                                                  obj_realforce/common/action_util.o
+host_last_consumer_report                         obj_realforce/common/host.o
+host_last_sysytem_report                          obj_realforce/common/host.o
+host_mouse_send                                   obj_realforce/common/host.o
+host_set_driver                                   obj_realforce/common/host.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+host_system_send                                  obj_realforce/common/host.o
+                                                  obj_realforce/common/action.o
+is_tap_key                                        obj_realforce/common/action.o
+                                                  obj_realforce/common/action_tapping.o
+key                                               obj_realforce/realforce.o
+keyboard_idle                                     obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/common/command.o
+keyboard_init                                     obj_realforce/common/keyboard.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+keyboard_protocol                                 obj_realforce/protocol/lufa/lufa.o
+                                                  obj_realforce/common/command.o
+keyboard_report                                   obj_realforce/common/action_util.o
+                                                  obj_realforce/common/command.o
+keyboard_set_leds                                 obj_realforce/common/keyboard.o
+keyboard_setup                                    obj_realforce/common/keyboard.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+keyboard_task                                     obj_realforce/common/keyboard.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+keymap_fn_to_action                               obj_realforce/realforce.o
+                                                  obj_realforce/common/keymap.o
+keymap_key_to_keycode                             obj_realforce/realforce.o
+                                                  obj_realforce/common/keymap.o
+keymaps                                           obj_realforce/keymap.o
+                                                  obj_realforce/realforce.o
+layer_and                                         obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+layer_clear                                       obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+layer_debug                                       obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+layer_invert                                      obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+layer_move                                        obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+layer_off                                         obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+layer_on                                          obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+layer_or                                          obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+layer_state                                       obj_realforce/common/action_layer.o
+layer_switch_get_action                           obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action_tapping.o
+                                                  obj_realforce/common/action.o
+layer_xor                                         obj_realforce/common/action_layer.o
+                                                  obj_realforce/common/action.o
+led_set                                           obj_realforce/realforce.o
+                                                  obj_realforce/common/keyboard.o
+lufa_driver                                       obj_realforce/protocol/lufa/lufa.o
+main                                              obj_realforce/protocol/lufa/lufa.o
+                                                  c:/msys64/home/ru/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtat90usb1286.o
+matrix_cols                                       obj_realforce/realforce.o
+matrix_get_row                                    obj_realforce/realforce.o
+                                                  obj_realforce/common/avr/suspend.o
+                                                  obj_realforce/common/keyboard.o
+matrix_init                                       obj_realforce/realforce.o
+                                                  obj_realforce/common/keyboard.o
+matrix_is_on                                      obj_realforce/realforce.o
+matrix_power_down                                 obj_realforce/realforce.o
+matrix_power_up                                   obj_realforce/realforce.o
+matrix_print                                      obj_realforce/realforce.o
+                                                  obj_realforce/common/keyboard.o
+matrix_rows                                       obj_realforce/realforce.o
+matrix_scan                                       obj_realforce/realforce.o
+                                                  obj_realforce/common/avr/suspend.o
+                                                  obj_realforce/common/keyboard.o
+matrix_setup                                      obj_realforce/realforce.o
+print_set_sendchar                                obj_realforce/common/print.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+process_action                                    obj_realforce/common/action.o
+                                                  obj_realforce/common/action_tapping.o
+register_code                                     obj_realforce/common/action.o
+                                                  obj_realforce/common/action_macro.o
+register_mods                                     obj_realforce/common/action.o
+reset_key                                         obj_realforce/common/avr/bootloader.o
+send_keyboard_report                              obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action_macro.o
+                                                  obj_realforce/common/action.o
+sendchar                                          obj_realforce/protocol/lufa/lufa.o
+sense                                             obj_realforce/capsense.o
+                                                  obj_realforce/realforce.o
+set_mods                                          obj_realforce/common/action_util.o
+set_oneshot_mods                                  obj_realforce/common/action_util.o
+                                                  obj_realforce/common/action.o
+set_weak_mods                                     obj_realforce/common/action_util.o
+suspend_idle                                      obj_realforce/common/avr/suspend.o
+suspend_power_down                                obj_realforce/common/avr/suspend.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+suspend_wakeup_condition                          obj_realforce/common/avr/suspend.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+suspend_wakeup_init                               obj_realforce/common/avr/suspend.o
+                                                  obj_realforce/protocol/lufa/lufa.o
+timer_clear                                       obj_realforce/common/avr/timer.o
+timer_count                                       obj_realforce/common/avr/timer.o
+                                                  obj_realforce/common/command.o
+                                                  obj_realforce/common/avr/suspend.o
+timer_elapsed                                     obj_realforce/common/avr/timer.o
+timer_elapsed32                                   obj_realforce/common/avr/timer.o
+timer_init                                        obj_realforce/common/avr/timer.o
+                                                  obj_realforce/common/keyboard.o
+timer_read                                        obj_realforce/common/avr/timer.o
+                                                  obj_realforce/common/keyboard.o
+timer_read32                                      obj_realforce/common/avr/timer.o
+unregister_code                                   obj_realforce/common/action.o
+                                                  obj_realforce/common/action_macro.o
+unregister_mods                                   obj_realforce/common/action.o
+xfunc_out                                         obj_realforce/common/avr/xprintf.o
+                                                  obj_realforce/common/print.o
+xitoa                                             obj_realforce/common/avr/xprintf.o
+xputc                                             obj_realforce/common/avr/xprintf.o
+xputs                                             obj_realforce/common/avr/xprintf.o
+                                                  obj_realforce/common/command.o
+                                                  obj_realforce/common/keyboard.o
+                                                  obj_realforce/common/host.o
+                                                  obj_realforce/protocol/lufa/lufa.o
