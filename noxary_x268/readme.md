@@ -5,11 +5,11 @@
 A fully customizable 65% keyboard.
 
 * Keyboard Maintainer: [Rozakiin](https://github.com/rozakiin)
-* Hardware Supported: 
-* x268 PCB
+* Hardware Supported: x268 PCB
+  * rev1 
 * Hardware Availability: 
-* [Noxary - 268]()
-* [LZ - CLS ms]
+  * [Noxary - 268]()
+  * [LZ - CLS ms]()
 
 Make example for this keyboard (after setting up your build environment):
 
