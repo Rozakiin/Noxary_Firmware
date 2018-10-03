@@ -1,4 +1,4 @@
-# Noxary 260
+# Noxary 268.2
 
 ![268.2](https://www.keebtalk.com/uploads/db8059/original/2X/6/65b93c83cadd98bbf8e3b1d739621d54b682609a.jpg)
 
