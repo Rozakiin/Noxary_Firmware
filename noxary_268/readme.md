@@ -1,6 +1,6 @@
 # Noxary 268
 
-![268](http://i.imgur.com/42pg6RS.png)
+![268](https://i.imgur.com/rwqp3Au.jpg)
 
 A fully customizable 65% keyboard.
 
