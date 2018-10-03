@@ -1,6 +1,6 @@
 # Noxary 260
 
-![260](http://i.imgur.com/42pg6RS.png)
+![260](https://cdn.discordapp.com/attachments/438429095303315456/489188948749451276/image0.jpg)
 
 A fully customizable 60% keyboard.
 
