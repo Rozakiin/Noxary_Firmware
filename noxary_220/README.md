@@ -7,7 +7,7 @@ A fully customizable Numpad keyboard.
 * Keyboard Maintainer: [Rozakiin](https://github.com/rozakiin)
 * Hardware Supported: 220 PCB
   * rev1 
-* Hardware Availability: [Noxary](https://www.instagram.com/noxaryco/)
+* Hardware Availability: [Noxary](https://geekhack.org/index.php?topic=95660.0)
 
 Make example for this keyboard (after setting up your build environment):
 
