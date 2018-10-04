@@ -8,8 +8,8 @@ A fully customizable 65% keyboard.
 * Hardware Supported: x268 PCB
   * rev1 
 * Hardware Availability: 
-  * [Noxary - 268]()
-  * [LZ - CLS ms]()
+  * [Noxary - 268](https://geekhack.org/index.php?topic=92066.0)
+  * [LZ - CLS ms](https://geekhack.org/index.php?topic=96377)
 
 Make example for this keyboard (after setting up your build environment):
 
