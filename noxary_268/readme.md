@@ -7,7 +7,7 @@ A fully customizable 65% keyboard.
 * Keyboard Maintainer: [Rozakiin](https://github.com/rozakiin)
 * Hardware Supported: 268 PCB
   * rev1 
-* Hardware Availability: [Noxary]()
+* Hardware Availability: [Noxary](https://geekhack.org/index.php?topic=92066.0)
 
 Make example for this keyboard (after setting up your build environment):
 
